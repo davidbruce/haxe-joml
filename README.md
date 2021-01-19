@@ -1,2 +1,2 @@
-# haxe-jogl
-Helper library for using JOGL with the Haxe JVM target.
+# haxe-joml
+Helper library for using JOML with the Haxe JVM target.

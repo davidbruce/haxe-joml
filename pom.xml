@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <!-- model version - always 4.0.0 for Maven 2.x POMs -->
+    <modelVersion>4.0.0</modelVersion>
+
+    <!-- project coordinates - values which uniquely identify this project -->
+    <groupId>com.mygroup</groupId>
+    <artifactId>my-jogl-project</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+
+    <dependencies>
+        <dependency>
+        <groupId>org.joml</groupId>
+        <artifactId>joml-primitives</artifactId>
+        <version>1.10.0</version>
+        </dependency>
+        <dependency>
+        <groupId>org.joml</groupId>
+        <artifactId>joml-graal</artifactId>
+        <version>1.10.0</version>
+        </dependency>
+    </dependencies>
+</project>
